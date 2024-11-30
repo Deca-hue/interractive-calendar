@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        <h1>Interactive Calendar</h1>
+    </header>
+    <main>
+        
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <button id="prev-month">&lt;</button>
+                <h2 id="month-year"></h2>
+                <button id="next-month">&gt;</button>
+            </div>
+            <div class="calendar-days">
+                <div class="calendar-day">Sun</div>
+                <div class="calendar-day">Mon</div>
+                <div class="calendar-day">Tue</div>
+                <div class="calendar-day">Wed</div>
+                <div class="calendar-day">Thu</div>
+                <div class="calendar-day">Fri</div>
+                <div class="calendar-day">Sat</div>
+            </div>
+            <div class="calendar-grid" id="calendar-grid"></div>
+        </div>
+    </main>
+    
+    <div class="calendar-header">
+        
+        <h2 id="month-year"></h2>
+        
+        <button id="current-month">Today</button>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
